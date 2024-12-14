@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conway's Game of Life</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="loop1.mp4" type="video/mp4">
+      </video>
+      <nav id="imp">
+        <div class="hh">
+        <a href="index.html">Game of Life</a>
+    </div>
+    
+   
+    <nav class="header_nav">
+        <ul>
+            <li><a class="d1" href="about.html">ABOUT</a></li>
+            <li> <a class="d1" href="history.html">HISTORY</a></li>
+           <li> 
+            <a class="d1" id="subd" href="index.html">GAME</a>
+            <ul class="submenu" style="margin-top:48px; overflow:visible;padding:0px; padding-top:10px;">
+                <li><a class="dx" href="index.html">Basic Game</a></li>
+                <li><a class="dx" href="mega.html">Mega Game</a></li>
+            </ul>
+                
+            </li>
+            <li><a class="d1" href="manual.html">MANUAL</a></li>
+           </ul>
+    </nav>
+    </nav>
+   <div class="contain">
+    <h1>History</h1>
+    <p>    The Game of Life was first published in the Martin Gardner’s column in October 1970 issue of Scientific American, resulting in the greatest number of letters from readers at that time.
+    </p>
+<p>While John Conway was an undergraduate at Cambridge University, he would write letters to Martin Gardner on various mathematical games. Sometimes, Martin would use the letters in his Scientific American column on mathematical puzzles.
+</p>
+<p>While at Cambridge, John Conway used to play various games using Go board with his friends during teatime. Being bored with real games, like “five in a line”, John tried to invent new games.
+</p>
+<p>The book “Automata Studies” (Ashby, 1956) and the cellular automata of Von Neumann motivated John Conway to look for set of rules that would result in interesting dynamics.
+</p><br><br>
+<h2>Earlier version: 3-state system
+</h2><hr>
+<p>After 18 months or so of trying to discover rules for a 2-state system (live or dead), John gave up and switched to 3-state system: off, A and B. A friend of John Conway, Martin Huxley, referred to A and B as being “actresses” and “bishops”, as in the famous at that time stories with a secondary meaning that is a bit suggestive (but deceitful).
+</p>
+<h4>The most popular set of rules was the following:
+</h4>
+<ul>
+<li>Birth rule: 3 people needed to give birth; they have to be of mixed sexes; the sex of the child is the weaker sex (2A+B would give a birth to a B)
+</li>
+<li>Overcrowding rule: If you have 4 or more neighbors, you die.
+</li><li>Sexual frustration rule: if you do not touch anybody of the opposite sex – you die.
+</li>
+</ul>
+<p>There were many variations on the rules, leading to the perpetual fight: If the birth rule is too strong – everything expands. If the death rules are too strong – everything dies. It turned out to be quite hard to balance the rules.
+</p><br><br>
+<h2>Game of Life using Go stones
+</h2><hr>
+
+<p>It took about 18 months of teatime (and coffee time) to come up with good set of rules resulting in configurations that do not tend to explode or die out too soon.
+</p>
+<p>A best way to experiment was to use Go boards with Go stones. Some cheap Go sets have flat stones, which are perfect for experimentation. The configuration at time t is set in white Go stones. John would put a black stone when there is a birth. If anybody is going to die, John would put a little shell on top. To step to the configuration at time t+1, John would remove any stones with shells, then see what is the color of the majority, and flip the other color. This would work, except for the time when there is a huge massacre and most of organisms should. John would say “shell a living” and put the shells on the survivors.
+</p>
+<h4>Discovery of the glider
+</h4>
+<p>John and his friends always had in mind that they might simulate a computer with the Game of Life. However, it was not obvious until they found a glider. This was the moment that John realized that he got the right set of rules.
+</p>
+<p>
+    Keeping track of Go stone configuration was a daunting and a bit annoying task, especially when the configuration has blinkers. John needed a “blinker watcher” and he recruited his friend, Richard K. Guy, who visited him at Cambridge. Richard was responsible for watching not only blinkers, but anything else that is small and changes periodically.
+
+</p>
+<p>One day, Richard said to John “my blinker is walking”. John suspected that there might have been moving configurations and he referred to them as “space ships”; the glider was the first such “space ship”.
+</p>
+<p>In hope to discover more interesting configurations, John went through an overdrive and crashed the gliders in every possible way -- 40 different ways. To find a glider generator, John Conway announced a prize - $50. To make sure he does not miss anything else interesting, he offered the prize to anybody who would find an initial configuration whose population goes to infinity. The prize was won by the MIT group who discovered the glider gun.
+</p>
+<p>Within a few weeks after the discovery of the glider, John had proven that Game of Life is equivalent to the universal Turing machine.
+</p><br><br><br>
+<h2>Game of Life vs. Life Game
+</h2><hr>
+<p>John Conway often refers to the Game of Life as “Life Game”. This is to avoid the confusion with “Game of Life” owned by Parker Brothers (who also own the “Monopoly Game”).
+</p>
+<p>We got first PDP machine in Cambridge, and we watch the game on screen without Go boards.
+</p>   <br><br>
+<hr>
+<footer>
+    <p>&copy;2024</p>
+    <br>
+    Developed by: <b>Neeraj T</b>
+    
+</footer></div>
+</body>
+</html>

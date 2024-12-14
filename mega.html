@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conway's Game of Life</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="main.js"></script> -->
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="loop1.mp4" type="video/mp4">
+      </video>
+      <nav id="imp">
+        <div class="hh">
+        <a href="index.html">Game of Life</a>
+    </div>
+    
+   
+    <nav class="header_nav">
+        <ul>
+            <li><a class="d1" href="about.html">ABOUT</a></li>
+            <li> <a class="d1" href="history.html">HISTORY</a></li>
+           <li> 
+            <a class="d1" id="subd" href="index.html">GAME</a>
+            <ul class="submenu" style="margin-top:48px; overflow:visible;padding:0px; padding-top:10px;">
+                <li><a class="dx" href="index.html">Basic Game</a></li>
+                <li><a class="dx" href="mega.html">Mega Game</a></li>
+            </ul>
+                
+            </li>
+            <li><a class="d1" href="manual.html">MANUAL</a></li>
+           </ul>
+    </nav>
+
+    </nav>
+    <canvas id="gridCanvas"></canvas>
+    <div class="controls">
+        <button class="scrolll" id="play">Play</button>
+        <button class="scrolll" id="pause">Pause</button>
+        <button class="scrolll" id="reset">Reset</button>
+        <button class="scrolll" id="speed1">1x Speed</button>
+        <button class="scrolll" id="speed2">2x Speed</button>
+        <button class="scrolll" id="speed4">4x Speed</button>
+        <button class="scrolll" id="random">RANDOM</button>
+    </div><br><br><br><br>
+    <div class="addl">
+
+        <div class="c1">
+        <img src="pics/megp/Game_of_life_glider_gun.svg.png" height="225px"  width="900px" alt="BLOCK" >
+        <button class="scrolll" id="glidergun">Glider Gun</button>
+        </div>
+
+        <div class="c2">
+            <img src="pics/megp/Game_of_life_Simkin_glider_gun.svg.png" height="505px" alt="BLOCK">
+        <button class="scrolll" id="simkin">Simkin Glider Gun</button>
+        </div>
+        <div class="c3">
+            <img src="pics/megp/Game_of_life_fpento.svg.png" height="225px" width="290px" alt="BLOCK" >
+
+        <button class="scrolll" id="rpento">R-Pentomino</button></div>
+        <div class="c4">
+            <img src="pics/megp/Game_of_life_diehard.svg.png" height="225px" width="290px" alt="BLOCK" >
+
+        <button class="scrolll" id="diehard">Diehard</button></div>
+        <div class="c5">
+            <img src="pics/megp/Game_of_life_acorn.svg.png" height="225px" width="290px" alt="BLOCK" >
+
+        <button class="scrolll" id="acorn">Acorn</button></div>
+    </div>
+    <br><br><br>
+   
+    <br><br>
+    <hr>
+    <footer>
+        <p>&copy;2024</p>
+        <br>
+        <p>Developed by: <b>Neeraj T</b></p>
+        
+    </footer>
+    <script src="maind.js" defer></script>
+    
+</body>
+</html>
