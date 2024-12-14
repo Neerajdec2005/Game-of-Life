@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conway's Game of Life</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="loop1.mp4" type="video/mp4">
+      </video>
+      <nav id="imp">
+        <div class="hh">
+        <a href="index.html">Game of Life</a>
+    </div>
+    
+   
+    <nav class="header_nav">
+        <ul>
+            <li><a class="d1" href="about.html">ABOUT</a></li>
+            <li> <a class="d1" href="history.html">HISTORY</a></li>
+           <li> 
+            <a class="d1" id="subd" href="index.html">GAME</a>
+            <ul class="submenu" style="margin-top:48px; overflow:visible;padding:0px; padding-top:10px;">
+                <li><a class="dx" href="index.html">Basic Game</a></li>
+                <li><a class="dx" href="mega.html">Mega Game</a></li>
+            </ul>
+                
+            </li>
+            <li><a class="d1" href="manual.html">MANUAL</a></li>
+           </ul>
+    </nav>
+    </nav>
+    <canvas id="gridCanvas"></canvas>
+    <div class="controls">
+        <button class="scrolll" id="play">Play</button>
+        <button class="scrolll" id="pause">Pause</button>
+        <button class="scrolll" id="reset">Reset</button>
+        <button class="scrolll" id="speed1">1x Speed</button>
+        <button class="scrolll" id="speed2">2x Speed</button>
+        <button class="scrolll" id="speed4">4x Speed</button>
+        <button class="scrolll" id="random">RANDOM</button>
+    </div><br><br><br><br>
+    <div class="life">
+
+        <div class="b1">
+        <img src="pics/stilllives/Game_of_life_block_with_border.svg.png" height="225px" width="225px" alt="BLOCK" class="a1">
+        <button class="scrolll" id="block">Block</button>
+        </div>
+
+        <div class="b2">
+            <img src="pics/stilllives/Game_of_life_beehive.svg.png" height="225px" width="225px" alt="BLOCK" class="a2">
+        <button class="scrolll" id="beeHive">BeeHive</button>
+        </div>
+        <div class="b3">
+            <img src="pics/stilllives/Game_of_life_loaf.svg.png" height="225px" width="225px" alt="BLOCK" class="a3">
+
+        <button class="scrolll" id="loaf">Loaf</button></div>
+        <div class="b4">
+            <img src="pics/stilllives/Game_of_life_boat.svg.png" height="225px" width="225px" alt="BLOCK" class="a4">
+
+        <button class="scrolll" id="boat">Boat</button></div>
+        <div class="b5">
+            <img src="pics/stilllives/Game_of_life_flower.svg.png" height="225px" width="225px" alt="BLOCK" class="a5">
+
+        <button class="scrolll" id="tub">Tub</button></div>
+        <div class="b6">
+            <img src="pics/Oscillators/Game_of_life_blinker.gif" height="225px"  width="225px" alt="BLOCK" class="a6">
+
+        <button class="scrolll" id="blinker">Blinker</button></div>
+        <div class="b7">
+            <img src="pics/Oscillators/Game_of_life_toad.gif" height="225px" width="225px" alt="BLOCK" class="a7">
+
+        <button class="scrolll" id="toad">Toad</button></div>
+        <div class="b8">
+            <img src="pics/Oscillators/Game_of_life_beacon.gif" height="225px" width="225px" alt="BLOCK" class="a8">
+
+        <button class="scrolll" id="beacon">Beacon</button></div>
+        <div class="b9">
+            <img src="pics/Oscillators/Game_of_life_pulsar.gif" height="225px" width="225px" alt="BLOCK" class="a9">
+
+        <button class="scrolll" id="pulsar">Pulsar</button></div>
+        <div class="b10">
+            <img src="pics/Oscillators/I-Column.gif" height="225px" width="225px" alt="BLOCK" class="a10">
+
+        <button class="scrolll" id="pentadecathlon">Pentadecathlon</button></div>
+        <div class="b11">
+            <img src="pics/spaceships/Game_of_life_animated_glider.gif" height="225px" width="225px" alt="BLOCK" class="a11">
+
+        <button class="scrolll" id="glider">Glider</button></div>
+        <div class="b12">
+            <img src="pics/spaceships/Game_of_life_animated_LWSS.gif" height="225px" width="225px" alt="BLOCK" class="a12">
+
+        <button class="scrolll" id="lwss">LWSS</button></div>
+        <div class="b13">
+            <img src="pics/spaceships/Animated_Mwss.gif" height="225px" alt="BLOCK" width="225px" class="a13">
+
+        <button class="scrolll" id="mwss">MWSS</button></div>
+        <div class="b14">
+            <img src="pics/spaceships/Animated_Hwss.gif" height="225px" alt="BLOCK" width="225px" class="a14">
+
+        <button class="scrolll" id="hwss">HWSS</button></div>
+        
+    </div>
+    <br><br><br><br>
+    <hr>
+    <footer>
+        <p>&copy;2024</p>
+        <br>
+        <p>Developed by: <b>Neeraj T</b></p>
+        
+    </footer>
+    
+    <script src="main.js"></script>
+</body>
+</html>
