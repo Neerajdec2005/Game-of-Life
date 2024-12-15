@@ -88,7 +88,7 @@ https://github.com/user-attachments/assets/6e272565-9936-4039-9179-6bb3b7c23671
 <img width="1470" alt="3" src="https://github.com/user-attachments/assets/b27e633b-338d-4f78-9aee-cb899edc3a6e" />
 <br/>
 <img width="1470" alt="4" src="https://github.com/user-attachments/assets/046eacb4-5c85-44a2-9b97-d4d267da6407" />
-<br/>
+
 ###
 
 <h5 align="left">⭐️ Star it if you like it!!⭐️<br><br>The website is not responsive yet.<br>It would be advised to use Desktop and Laptop for better experience!!</h5>
