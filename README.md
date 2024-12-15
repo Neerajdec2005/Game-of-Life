@@ -79,6 +79,11 @@
 </div>
 
 https://github.com/user-attachments/assets/6e272565-9936-4039-9179-6bb3b7c23671
+
+<img width="1470" alt="1" src="https://github.com/user-attachments/assets/82c02faa-a7f5-4d7e-840c-840ab125c62a" />
+<img width="1470" alt="2" src="https://github.com/user-attachments/assets/cb9e1a75-1d5e-43b4-963e-5babf4ba7fe1" />
+<img width="1470" alt="3" src="https://github.com/user-attachments/assets/b27e633b-338d-4f78-9aee-cb899edc3a6e" />
+<img width="1470" alt="4" src="https://github.com/user-attachments/assets/046eacb4-5c85-44a2-9b97-d4d267da6407" />
 ###
 
 <h5 align="left">⭐️ Star it if you like it!!⭐️<br><br>The website is not responsive yet.<br>It would be advised to use Desktop and Laptop for better experience!!</h5>
