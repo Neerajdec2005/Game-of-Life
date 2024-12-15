@@ -13,9 +13,9 @@
 <p align="left">In the game of life, every cell on a two-dimensional grid can be either living or dead, simulating a dynamic system. The following guidelines determine how the grid's state changes across discrete time steps:</p>
 
 ###
-
+[![Watch the video](https://img.youtube.com/vi/PL5K2uM5biE/maxresdefault.jpg)](https://youtu.be/PL5K2uM5biE)
 <div align="center">
-  [![Watch the video](https://img.youtube.com/vi/PL5K2uM5biE/maxresdefault.jpg)](https://youtu.be/PL5K2uM5biE)
+  
 
 ### [Watch this video on YouTube](https://youtu.be/PL5K2uM5biE)
 </div>
